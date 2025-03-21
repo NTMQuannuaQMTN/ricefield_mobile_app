@@ -1,0 +1,13 @@
+import { Stack } from "expo-router";
+
+export default function AuthFormsLayout() {
+  return (
+    <Stack>
+      <Stack.Screen name="login" options={{ title: "Login", headerShown: false }} />
+      <Stack.Screen name="signup" options={{ title: "Sign Up", headerShown: false }} />
+      <Stack.Screen name="forgot-password" options={{ title: "Forgot Password", headerShown: false }} />
+      <Stack.Screen name="reset-password" options={{ title: "Reset Password", headerShown: false }} />
+      <Stack.Screen name="check-inbox" options={{ title: "Check inbox", headerShown: false }} />
+    </Stack>
+  );
+}
